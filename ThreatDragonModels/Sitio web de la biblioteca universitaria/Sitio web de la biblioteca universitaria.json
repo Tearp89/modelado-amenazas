@@ -1533,6 +1533,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1616,7 +1617,6 @@
               ]
             },
             "id": "3335016f-3781-4530-ae43-bb320cdffccf",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Usuarios",
@@ -1668,6 +1668,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1751,7 +1752,6 @@
               ]
             },
             "id": "062636a3-2426-49fb-8e5f-10240794a50e",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Controlador \nWeb",
@@ -1810,6 +1810,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1893,7 +1894,6 @@
               ]
             },
             "id": "3bfa8388-d73d-40b5-aa5d-aa523a7d8612",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Proceso \nde login",
@@ -1957,6 +1957,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -2040,7 +2041,6 @@
               ]
             },
             "id": "4b6d8fc0-f9a7-4be7-bc33-024ad443d608",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Base de datos",
@@ -2088,6 +2088,13 @@
                 "informationDisclosure": 1,
                 "denialOfService": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2625,7 +2632,8 @@
             "target": {
               "cell": "062636a3-2426-49fb-8e5f-10240794a50e",
               "port": "aae90d9f-158c-46ca-a04e-6e564d516efb"
-            }
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -2653,6 +2661,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -2736,7 +2745,6 @@
               ]
             },
             "id": "2248cf1b-773a-43ef-8600-136750f6811d",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Páginas web\nen disco",
